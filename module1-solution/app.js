@@ -14,7 +14,6 @@
         $scope.message = "Please enter data first";
         return;
       }
-      alert($scope.lunchMenu);
       var lunchItems = $scope.lunchMenu.split(",");
       lunchItems = lunchItems.filter(v=>v != '');
       if(lunchItems.length > 3)
